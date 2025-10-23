@@ -1,30 +1,35 @@
-# <Project Title> — <Tool>
+# Medical Insurance Costs — Power BI
 
-## Goal
-One sentence: what business question are you answering?
+## 🎯 Objective
+Analyze how age, BMI, and smoking status impact medical insurance charges.
 
-## Data
-- Source:
-- Rows/Columns:
-- Notes:
+## 🗂️ Dataset
+- Source: Codecademy BI Path / Kaggle Insurance dataset  
+- Rows: 1,338  
+- Fields: age, sex, bmi, children, smoker, region, charges
 
-## Model / Logic
-- Star schema, relationships (if any)
-- Key calculated fields / DAX
+## ⚙️ Process
+1. Cleaned in Power Query (age bands, BMI categories)
+2. Built star schema (FactClaims + Dim tables)
+3. Created DAX measures for Avg Charge, Smoker vs Non-Smoker %, etc.
+4. Designed dashboards with region + demographic filters.
 
-## KPIs
-- KPI 1: definition
-- KPI 2: definition
+## 📈 KPIs
+- Average Charge  
+- Avg Charge by Smoker Status  
+- Avg BMI  
+- Charges per Child  
 
-## Highlights
-- Finding 1
-- Finding 2
-- Finding 3
+## 📊 Insights
+- Smokers pay ~60 % more on average.  
+- BMI > 30 group drives highest costs.  
+- Southeast region shows largest average charges.
 
-## How to Run
-- Open `<file>.pbix` / `<file>.twbx`
-- Power BI / Tableau version
+## 🔗 Links
+- [Power BI dashboard](#)  
+- [Data Source](#)
 
-## Links
-- Live dashboard: <URL>
-- Screenshots in `/docs/`
+## 📎 Files
+- `/pbix/insurance_analysis.pbix`
+- `/data/insurance.csv`
+- `/docs/` screenshots
