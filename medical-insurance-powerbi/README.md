@@ -1,41 +1,54 @@
-# 🩺 Medical Insurance Analysis — Power BI Dashboard
+# 🩺 **Medical Insurance Analysis — Power BI Dashboard**
 
-### 📘 Objective
-Analyze how demographic and behavioral factors (age, BMI, smoking, gender, region) influence U.S. medical insurance charges, using a clean, interactive Power BI dashboard.
+![Medical Insurance Dashboard](docs/Home_Navigation.png)
+
+> Built with advanced **DAX measures**, optimized **Power Query transformations**, and professional **UI/UX design principles** in Power BI.
 
 ---
 
-## 📊 Dataset
-- **Source:** Codecademy BI Path / Kaggle Medical Insurance dataset  
+### 📘 **Objective**
+Analyze how demographic and behavioral factors — **age, BMI, smoking, gender, region** — influence U.S. medical insurance charges through an interactive, insight-driven Power BI dashboard.
+
+---
+
+## 📊 **Dataset**
+- **Source:** Codecademy BI Path / Kaggle *Medical Insurance Dataset*  
 - **Rows:** 1,338  
 - **Fields:** `age`, `sex`, `bmi`, `children`, `smoker`, `region`, `charges`  
-- **Data Model:** Star schema (FactClaims + Dim tables)  
+- **Data Model:** Star schema (`FactClaims` + Dim tables)  
 - **Transformations:** Performed in Power Query (age bands, BMI categories, smoker label)
 
 ---
 
-## ⚙️ Process Overview
-1. **Data Cleaning & Enrichment**
-   - Created derived columns for Age Band (`18–25`, `26–35`, …) and BMI Class (`Underweight`, `Normal`, `Overweight`, `Obese`)
-   - Added `Smoker Label` (“Smoker” / “Non-Smoker”) and `Risk Group` (Low / Moderate / High)
-2. **Data Modeling**
-   - Star schema with `FactClaims` (charges) and dimension tables.
-   - DAX measures for:
-     - `Total Charges`
-     - `Avg Charge`
-     - `% Smokers`
-     - `% Charges from Smokers`
-3. **Visualization Design**
-   - Built KPI cards and insight-driven charts.
-   - Implemented page navigators, bookmarks, and dynamic titles.
-   - Consistent theme and UI layout across all pages.
+## ⚙️ **Process Overview**
+
+### 1️⃣ Data Cleaning & Enrichment
+- Created derived columns:  
+  - **Age Band:** `18–25`, `26–35`, `36–45`, `46–55`, `56+`  
+  - **BMI Class:** `Underweight`, `Normal`, `Overweight`, `Obese`  
+- Added:  
+  - `Smoker Label` → *Smoker / Non-Smoker*  
+  - `Risk Group` → *Low / Moderate / High*  
+
+### 2️⃣ Data Modeling
+- Star schema design with **FactClaims** (charges) + Dim tables.
+- Key **DAX Measures**:
+  - `Total Charges`
+  - `Avg Charge`
+  - `% Smokers`
+  - `% Charges from Smokers`
+
+### 3️⃣ Visualization Design
+- Consistent layout and theme across pages.
+- Dynamic titles and KPI-based storytelling.
+- Custom navigation buttons & icons for intuitive flow.
 
 ---
 
-## 📈 Dashboard Pages
+## 📈 **Dashboard Pages**
 
 ### 🏠 **Home Page**
-Elegant navigation hub guiding users through:
+Elegant landing page that guides users to:
 - **Cost Overview**
 - **Demographics**
 - **Risk Segments**
@@ -43,53 +56,59 @@ Elegant navigation hub guiding users through:
 ---
 
 ### 💰 **Page 1 – Cost Overview**
-**Objective:** Provide an executive summary of overall medical spending.
+**Objective:** Provide a high-level view of national medical spending.
 
 **Highlights**
-- **KPIs:** Total Charges \$17.76M | Avg Charge \$13.27K | % Smokers 20.5% | % Charges from Smokers 49.5%
+- **KPIs:**  
+  - Total Charges → **$17.76M**  
+  - Avg Charge → **$13.27K**  
+  - % Smokers → **20.5%**  
+  - % Charges from Smokers → **49.5%**
 - **Charts:**
-  - Avg Charge by Age Band → *Patients aged 56+ have nearly double the charges of those under 25.*
-  - Avg Charge by BMI Class → *Obese patients generate ~50% higher costs than normal-weight individuals.*
-  - Share of Charges by Smoking Status & Region → *Smokers contribute nearly half of total expenses.*
+  - *Avg Charge by Age Band:* Patients aged **56+** have nearly **double** the charges of those under 25.  
+  - *Avg Charge by BMI Class:* Obese patients generate **~50% higher costs** than normal-weight individuals.  
+  - *Charges by Smoking & Region:* Smokers contribute **almost half** of total regional expenses.
 
 ---
 
 ### 👥 **Page 2 – Demographics**
-**Objective:** Analyze how age, BMI, and gender affect medical costs.
+**Objective:** Explore how **age**, **BMI**, and **gender** impact costs.
 
 **Highlights**
-- Line Chart: *Medical charges rise sharply with BMI and age, especially among males.*
-- Bar Chart: *Males incur \$1.7K higher average charges than females.*
-- Matrix Table: *Obese patients aged 46+ form the costliest demographic group.*
+- 📈 *Line Chart:* Medical charges **rise sharply** with age and BMI, especially among males.  
+- 📊 *Bar Chart:* Males incur **$1.7K higher** average charges than females.  
+- 🧮 *Matrix Table:* Obese patients aged **46+** form the **costliest** demographic segment.
 
 ---
 
 ### ⚠️ **Page 3 – Risk Segments**
-**Objective:** Understand how risk profiles and smoking behavior drive total charges.
+**Objective:** Reveal how **smoking** and **risk profiles** drive total charges.
 
 **Highlights**
-- Stacked Bar: *Smokers show ~25% higher share of charges from obese patients.*
-- Treemap: *High and moderate-risk groups account for ~75% of all spending.*
+- 🟩 *Stacked Bar:* Smokers show **~25% higher** charge share from obese patients.  
+- 🟧 *Treemap:* High + Moderate risk groups account for **~75%** of all spending.
 
 ---
 
-## 💡 Key Insights
-- **Age & BMI** are the primary cost drivers — charges nearly double after age 50.  
-- **Smoking** significantly amplifies costs, responsible for ~50% of total medical charges.  
-- **Obese smokers** represent the highest-cost population segment.  
-- **Moderate and high-risk groups** account for ~¾ of total healthcare spending.  
+## 💡 **Key Insights**
+**Top Cost Drivers**
+- 🧓 **Age:** Charges nearly double after 50.  
+- 🚬 **Smoking:** Responsible for ~50% of total medical charges.  
+- ⚖️ **BMI:** Obese patients incur ~50% more costs vs. normal-weight.  
+- 💰 **High-risk groups:** Account for ~¾ of total healthcare spending.  
 
 ---
 
-## 🧰 Tech Stack
+## 🧰 **Tech Stack**
 - **Tool:** Power BI Desktop  
-- **Language / Models:** DAX, Power Query (M)  
-- **Visualization:** KPI Cards, Line Charts, Bar Charts, Treemap, Matrix  
-- **Design:** Custom color theme, minimal UI with page navigators & dynamic titles  
+- **Languages / Models:** DAX, Power Query (M)  
+- **Visuals Used:** KPI Cards, Line Charts, Bar Charts, Treemaps, Matrices  
+- **Design:** Custom theme, dynamic titles, and minimal UI with page navigators  
 
 ---
 
-## 📂 Repository Structure
+## 📂 **Repository Structure**
+```plaintext
 📦 medical-insurance-powerbi
 ┣ 📂 data
 ┃ ┗ 📄 insurance.csv
@@ -105,18 +124,10 @@ Elegant navigation hub guiding users through:
 ---
 
 ## 🔗 Links
-- **📊 Power BI Dashboard:** [View on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiZjY5ZWJlODEtNzY4MS00MDFiLTlmZDMtNzY0NTE2YWViZjVhIiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiJ9)
+- **📊 Power BI Dashboard:** [View on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTM2MGFkMzAtZWNiMS00ZmQyLThmZmYtZjBiNWE5NGQ0YjM3IiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiIsImMiOjl9)
 - **📁 Dataset:** [Kaggle – Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 
 ---
-
-## 🧠 Summary
-This project demonstrates advanced Power BI capabilities:
-- End-to-end ETL using Power Query and DAX.
-- Dynamic storytelling through page navigators and insight-based titles.
-- Clear narrative: **From total cost → demographic trends → risk segmentation.**
-
-> 🎓 *Ideal for showcasing analytical storytelling, DAX proficiency, and UI design in a professional Power BI portfolio.*
-
----
-
+👤 **Author:** Enrique  
+📧 Contact: [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | [GitHub](https://github.com/Datapathic/Portfolio)  
+🎯 Focus: Data Analysis • Power BI • DAX • Storytelling Dashboards
