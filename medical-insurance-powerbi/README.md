@@ -107,18 +107,18 @@ Elegant landing page that guides users to:
 
 ---
 
-## 📂 **Repository Structure**
-```plaintext
-📦 medical-insurance-powerbi
-┣ 📂 data
-┃ ┗ 📄 insurance.csv
-┣ 📂 docs
-┃ ┣ 📄 Home_Navigation.png
-┃ ┣ 📄 Cost_Overview.png
-┃ ┣ 📄 Demographics.png
-┃ ┗ 📄 Risk_Segments.png
-┣ 📂 pbix
-┃ ┗ 📄 Medical_Insurance.pbix
+## 📂 Repository Structure
+
+📦 **medical-insurance-powerbi**  
+┣ 📂 data  
+┃ ┗ 📄 insurance.csv  
+┣ 📂 docs  
+┃ ┣ 📄 Home_Navigation.png  
+┃ ┣ 📄 Cost_Overview.png  
+┃ ┣ 📄 Demographics.png  
+┃ ┗ 📄 Risk_Segments.png  
+┣ 📂 pbix  
+┃ ┗ 📄 Medical_Insurance.pbix  
 ┗ 📄 README.md
 
 ---
@@ -126,8 +126,12 @@ Elegant landing page that guides users to:
 ## 🔗 Links
 - **📊 Power BI Dashboard:** [View on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTM2MGFkMzAtZWNiMS00ZmQyLThmZmYtZjBiNWE5NGQ0YjM3IiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiIsImMiOjl9)
 - **📁 Dataset:** [Kaggle – Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- **📥 PBIX File:** [Medical_Insurance.pbix](pbix/Medical_Insurance.pbix)
 
 ---
-👤 **Author:** Enrique  
-📧 Contact: [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | [GitHub](https://github.com/Datapathic/Portfolio)  
-🎯 Focus: Data Analysis • Power BI • DAX • Storytelling Dashboards
+
+## 👤 Author
+**Enrique**  
+📧 [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | 
+[GitHub](https://github.com/Datapathic/Portfolio)  
+🎯 *Focus: Data Analysis • Power BI • DAX • Storytelling Dashboards*
