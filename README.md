@@ -1,26 +1,38 @@
-# 📊 Data Analyst Portfolio (Power BI + Tableau)
+# 📊 Data Analyst Portfolio (Power BI)
 
-Welcome to my Business Intelligence portfolio — a collection of data analytics projects demonstrating end-to-end BI skills: data cleaning, modeling, visualization, and insight generation.
+This portfolio showcases practical data analytics projects built with **Power BI**, **SQL**, and **Python**.  
+Each project demonstrates real-world experience in data modeling, visualization, and DAX development.
 
 ---
 
-## 🧭 Projects Overview
+## 🧠 Projects Overview
 
 | Project | Tool | Description | Link |
-|----------|------|--------------|------|
-| [Medical Insurance Costs](medical-insurance-powerbi/README.md) | Power BI | Analyzes U.S. insurance charges by age, BMI, and smoking habits. | [View dashboard](#) |
-| [Biodiversity in National Parks](biodiversity-tableau/README.md) | Tableau | Explores endangered species trends across U.S. parks. | [View dashboard](#) |
-| [Business Performance Dashboard](business-performance-powerbi/README.md) | Power BI | Full retail sales analytics dashboard with DAX KPIs and YoY trends. | [View dashboard](#) |
+|----------|------|-------------|------|
+| [Medical Insurance Costs](medical-insurance-powerbi/README.md) | Power BI | Analyzes U.S. insurance charges by age, BMI, and smoking habits. | [View dashboard](https://app.powerbi.com/view?r=YOUR_LINK_HERE) |
+| [E-Commerce Sales Dashboard](ecommerce-powerbi/README.md) | Power BI | Retail sales analytics with DAX KPIs, YoY performance, and product trends. | [View dashboard](https://app.powerbi.com/view?r=YOUR_LINK_HERE) |
 
 ---
 
-### 🔧 Tools Used
-- Power BI (DAX, Power Query, modeling)
-- Tableau (interactive storytelling)
-- SQL, Python (for data prep)
-- GitHub + VS Code for version control and documentation
+## 🧰 Tools Used
+
+- **Power BI** – DAX, Power Query, and data modeling  
+- **SQL + Python** – data cleaning and transformation  
+- **GitHub + VS Code** – version control and documentation  
 
 ---
 
-### 🧑‍💻 About
-Created as part of the Codecademy *BI Data Analyst* path to demonstrate practical analytical skills.
+## 👤 About
+
+I’m a **Data Analyst** focused on building efficient data models and clear, interactive dashboards using Power BI.  
+I value clean data pipelines, reproducible work, and visuals that communicate insights quickly.  
+
+I’m currently open to **Data Analyst** or **BI Analyst** roles where I can apply my technical skills to solve real business problems and grow with a data-driven team.
+
+## 👤 Author
+**Enrique**  
+📧 [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | 
+[GitHub](https://github.com/Datapathic/Portfolio)  
+🎯 *Focus: Data Analysis • Power BI • Tableau • Storytelling Dashboards*
+
+---
