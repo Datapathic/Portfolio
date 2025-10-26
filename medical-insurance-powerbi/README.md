@@ -107,6 +107,19 @@ Elegant landing page that guides users to:
 
 ---
 
+## 🔗 Links
+- **📊 Power BI Dashboard:** [View on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTM2MGFkMzAtZWNiMS00ZmQyLThmZmYtZjBiNWE5NGQ0YjM3IiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiIsImMiOjl9)
+- **📁 Dataset:** [Kaggle – Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+
+---
+
+## 👤 Author
+**Enrique**  
+📧 [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | 
+[GitHub](https://github.com/Datapathic/Portfolio)  
+🎯 *Focus: Data Analysis • Power BI • Tableau • Storytelling Dashboards*
+
+
 ## 📂 Repository Structure
 
 📦 **medical-insurance-powerbi**  
@@ -120,18 +133,4 @@ Elegant landing page that guides users to:
 ┣ 📂 pbix  
 ┃ ┗ 📄 Medical_Insurance.pbix  
 ┗ 📄 README.md
-
 ---
-
-## 🔗 Links
-- **📊 Power BI Dashboard:** [View on Power BI Service](https://app.powerbi.com/view?r=eyJrIjoiYTM2MGFkMzAtZWNiMS00ZmQyLThmZmYtZjBiNWE5NGQ0YjM3IiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiIsImMiOjl9)
-- **📁 Dataset:** [Kaggle – Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
-- **📥 PBIX File:** [Medical_Insurance.pbix](pbix/Medical_Insurance.pbix)
-
----
-
-## 👤 Author
-**Enrique**  
-📧 [LinkedIn](https://www.linkedin.com/in/enrique-ardelean-816837394/) | 
-[GitHub](https://github.com/Datapathic/Portfolio)  
-🎯 *Focus: Data Analysis • Power BI • DAX • Storytelling Dashboards*
