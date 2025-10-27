@@ -10,7 +10,7 @@ Each project demonstrates real-world experience in data modeling, visualization,
 | Project | Tool | Description | Link |
 |----------|------|-------------|------|
 | [Medical Insurance Costs](medical-insurance-powerbi/README.md) | Power BI | Analyzes U.S. insurance charges by age, BMI, and smoking habits. | [View dashboard](https://app.powerbi.com/view?r=eyJrIjoiYTM2MGFkMzAtZWNiMS00ZmQyLThmZmYtZjBiNWE5NGQ0YjM3IiwidCI6IjE0MzVkNzQxLTFiYjAtNGE4Ny1hNGIwLWQ0NzIyODY5NDQyNiIsImMiOjl9) |
-| [E-Commerce Sales Dashboard](E-Commerce%20Sales%20Data/README.md) | Power BI | Retail sales analytics with DAX KPIs, Global performance, and product trends. | [View dashboard](https://public.tableau.com/app/profile/enrique.ardelean/viz/E-Commerce_Sales_Data/SalesDashboard?publish=yes) |
+| [E-Commerce Sales Dashboard](E-Commerce%20Sales%20Data/README.md) | Tableau | Retail sales analytics with DAX KPIs, Global performance, and product trends. | [View dashboard](https://public.tableau.com/app/profile/enrique.ardelean/viz/E-Commerce_Sales_Data/SalesDashboard?publish=yes) |
 
 ---
 

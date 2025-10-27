@@ -91,8 +91,8 @@ Analyze global e-commerce transactions to identify key sales trends, top product
 ---
 
 ## 🔗 Links
-- **📊 Power BI Dashboard:** [View on Power BI Service](https://public.tableau.com/app/profile/enrique.ardelean/viz/E-Commerce_Sales_Data/SalesDashboard?publish=yes)
-- **📁 Dataset:** [Kaggle – Medical Cost Personal Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
+- **📊 Tableau Dashboard:** [View on Tableau Public](https://public.tableau.com/app/profile/enrique.ardelean/viz/E-Commerce_Sales_Data/SalesDashboard?publish=yes)
+- **📁 Dataset:** [Kaggle – E-commerce Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 
 ---
 
